@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-first-education-project';
+  user = 'Aybuke';
+  items : any = [
+    {description: "Breakfast", action: "No"},
+    {description: "Sport", action: "No"},
+    {description: "Cinema", action: "No"}
+  ];
 }
