@@ -5,8 +5,10 @@ export class Model {
     constructor(){
         this.user = "Aybuke";
         this.items = [
-            new TodoItem("Sport", false),
-            new TodoItem("Breakfast", false)
+            new TodoItem("Sport", true),
+            new TodoItem("Breakfast", false),
+            new TodoItem("Cinema", false),
+            new TodoItem("Reading", false)
         ];
         this.title = 'angular-first-education-project';
     }
